@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0, 
+                      user-scalable=no, target-densitydpi=device-dpi">
+    <title>Lisa McKinney's Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="noindex">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="nav">
+       <ul class="nav__menu">
+           <li class="nav__menu__item"><a href="index.html">Home</a><span class="dot"></span></li>
+           <!-- <li class="nav__menu__item"><a href="#">About</a></li> -->
+           <li class="nav__menu__item"><a href="contact.html">Contact</a></li>
+       </ul>
+    </nav>
+
+    <!-- Sidebar --> 
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <a href="index.html">
+                <span>L</span><span>M</span>
+            </a>
+        </div>
+
+        <div class="nav-toggle">
+            <div class="nav-toggle-bar nav-toggle-bar-one"></div>
+            <div class="nav-toggle-bar nav-toggle-bar-two"></div>
+            <div class="nav-toggle-bar nav-toggle-bar-three"></div>
+        </div>
+
+        <div class="socials">
+            <ul class="social-links">
+                <li class="social-link">Fb</li>
+                <li class="social-link">Tw</li>
+                <li class="social-link">Li</li>
+            </ul>
+        </div>
+
+    </aside>
+
+    <!-- #end sidebar -->
+
+    <main class="main">
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html">
+                <div class="logo__lisa">Lisa</div>
+                <div class="logo__mckinney">McKinney</div>
+            </a>
+        </div>
+
+
+        <!-- Contact slide -->
+        <section class="contact-slide">
+            <div class="row row--forced contact-slide__inner">
+                <h2 class="contact-slide__heading txt-centre">Have a project? I'd love to hear</h2>
+
+                <!-- Contact form -->
+                <form class="form" action="contactform.php" method="post">
+                    <div class="form__row">
+                        <!-- <label for="Fname">Name</label> -->
+                        <div class="col-1-of-2">
+                            <input type="text" name="Fname" placeholder="first name">
+                        </div>
+                        <div class="col-1-of-2">
+                            <input type="text" name="Lname" placeholder="last name">
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <!-- <label for="email">Email</label> -->
+                        <input type="text" name="email" placeholder="email">
+                    </div>
+                    <div class="form__row">
+                        <!-- <label for="phone">Phone number</label> -->
+                        <input type="text" name="phone" placeholder="phone number">
+                    </div>
+                    <div class="form__row">
+                        <!-- <label for="message">Message</label> -->
+                        <textarea name="message" name="button" placeholder="message"></textarea>
+                    </div>
+                    <button type="submit" name="submit" class="btn"><span>send</span></button>
+                </form>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            
+            <div class="footer__logo">
+                <div class="footer__logo__lisa">Lisa</div>
+                <div class="footer__logo__mckinney">McKinney</div>
+            </div>
+
+            <div class="footer__contact">
+                <div>07860629798</div>
+                <div>lisamckinney00@gmail.com</div>
+            </div>
+
+            <div class="footer__copyright">
+                <div>Designed and built by <a href="https://jeremyjl.xyz">Jeremy James</a></div>
+                <div>&#169; Lisa McKinney <script>document.write(new Date().getFullYear());</script></div>
+            </div>
+        </div>
+    </footer>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
